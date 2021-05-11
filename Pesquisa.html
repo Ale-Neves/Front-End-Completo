@@ -1,43 +1,95 @@
 <!-- =========== CODIGOS PARA PESQUISA E DUVIDAS ===========  -->
 
+<!--==========================================================-->
 <!-- Define o tipo de documento que estamos trabalhando -->
-<!DOCTYPE html> 
+<!DOCTYPE html>
 
+<!--==========================================================-->
 <!-- Resolve o problema com acentuação (HOJE EM DIA, NÃO PRECISA MAIS SER UTILIZAR)-->
 <meta charset="utf-8" />
 
+<!--==========================================================-->
 <!-- Tag HEAD onde colocamos o cabeçalho do nosso site. -->
 <html> <head></head> </html>
 
+<!--==========================================================-->
 <!-- Tag TITLE onde colocamos o titulo para o nosso site. -->
 <title>Titulo do meu website</title>
 
+<!--==========================================================-->
 <!-- Tag BODY onde colocamos o todo conteudo que sera renderizado pelo navegador. -->
 <html> <body></body> </html>
 
+<!--==========================================================-->
 <!-- Tags de titulos, onde o maior valor de H representa o menor tamanho do titulo-->
-<body>  <h4>Título Utilizando H4 do meu Texto</h4>
+<body>
+        <h4>Título Utilizando H4 do meu Texto</h4>
         <h3>Título Utilizando H3 do meu Texto</h3>
         <h2>Título Utilizando H2 do meu Texto</h2>
-        <h1>Título Utilizando H1 do meu Texto</h1> </body>
+        <h1>Título Utilizando H1 do meu Texto</h1>
+</body>
 
+<!--==========================================================-->
 <!-- Tag para paragramos, onde iremos colocar o texto da nossa pagina-->
-<body><p> texto </p></body> <!--Atua em blocos-->
+<body> <p> texto </p> </body> <!--Atua em blocos-->
+
+<!--==========================================================-->
 <body><span> texto </span></body> <!--Atua na mesma linha-->
 
+<!--==========================================================-->
 <!-- Tag in line para quebrar linhas do texto -->
-<br/>
+<br />
 
+<!--==========================================================-->
 <!--Pegando a imagem do Diretorio ou de um link
 - Width= "500" => Largura em 500 pixels || Width= "500px"
 - Width= "100%" => Laugra na porcentagem da tela.
 - Height= "500" => Altura em 500 pixels || Height= "500px"
 - Height= "100%" => Altura na porcentagem da tela.
 -->
-<img src="imagens/naruto.png" width="300" height="250"/>
-<img src="https://www.bambui.ifmg.edu.br/portal_padrao_joomla/joomla/index.php/imagens/1-galeria-de-imagens-01/detail/3-imagem-3-titulo-com-ate-45-caracteres?tmpl=component"/>
+<img src="imagens/naruto.png" width="300" height="250" />
+<img
+        src="https://www.bambui.ifmg.edu.br/portal_padrao_joomla/joomla/index.php/imagens/1-galeria-de-imagens-01/detail/3-imagem-3-titulo-com-ate-45-caracteres?tmpl=component" />
 
+<!--==========================================================-->
 <!-- Criando Link de acesso na pagina
 - href= "link" => onde inserimos o link"
 -->
 <a href="http://www.google.com">Link para acessar o google!</a>
+
+
+<!--==========================================================-->
+<!--Div nada mais é para manter uma divisão, tanto imagem quanto texto-->
+<div>
+        <h1>Trabalhando com Divs</h1>
+</div>
+
+<!--==========================================================-->
+<!-- Table usado para trabalhar com tabelas
+- align="left" || "center" || "right" => posição da tabela na tela.
+- border="1" => bordas da tabela
+-->
+<table width="900" align="left" border="1">
+        <tr> <!-- Tr representa as Linhas da tabela -->
+                <td>Nome</td> <!-- Td representa as Colunas da tabela -->
+                <td>Idade</td>
+                <td>Cargo</td>
+        </tr>
+        <tr>
+                <td>Alexandre</td>
+                <td>23</td>
+                <td>Desenvolvedor</td>
+        </tr>
+</table>
+
+<!--==========================================================-->
+<!-- Trabalhando com formulario basta abrir a tag form
+- Input tem como obrigação definir os atributos para ele!
+-->
+<form>
+    <p>Login: <input type="text"/> </p>
+    <p>Senha: <input type="password"/> </p>
+    <p>Caixa de Texto:</p>
+    <textarea></textarea>
+    <p><input type="button" value="Enviar"/></p>
+</form>
