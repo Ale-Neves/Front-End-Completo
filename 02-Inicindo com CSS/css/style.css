@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(212, 212, 212); /*alterando cor de fundo do site*/
+}
+
+/* ponto é utilizado para referenciar class 
+e o > para acessar a tag que esta dentro da div*/
+.div1 > h1{
+    color: blue;
+}
+
+/* hashtag é utilizado para referenciar ids 
+e o > para acessar a tag que esta dentro da div*/
+#div2 > h1{
+    color: brown;
+}
