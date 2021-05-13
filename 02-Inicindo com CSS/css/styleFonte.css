@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para conteúdo do site*/
+.artigo{
+    width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid black ;
+}
+
+.artigo h1{
+    color: rgb(255, 102, 0); /*cor do titulo*/
+    margin: 10px auto; /* magem do titulo*/
+    font-size: 40px; /*alterando tamanho da fonte*/
+    font-family: sans-serif; /*alererando a fonte do titulo*/
+    font-style: normal;
+    font-weight: normal;
+}
+
+.artigo p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.site {
+    width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+}
+.site h1{
+    color: rgb(255, 102, 0); /*cor do titulo*/
+    margin: 10px auto; /* magem do titulo*/
+    font-size: 40px; /*alterando tamanho da fonte*/
+    font-family: sans-serif; /*alererando a fonte do titulo*/
+    font-style: italic; /*alterando estilo da fonte*/
+    font-weight: bold; /*alterando espessura da fonte para negrito*/
+}
+.site a{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
