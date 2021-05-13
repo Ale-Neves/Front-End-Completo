@@ -1,0 +1,28 @@
+/* Trabalha com todo documento */
+*{
+    margin-top:0; /*Removendo toda margem do documento*/
+    padding: 0; /*Removendo espaçamento*/
+}
+
+body{
+    background-color: rgba(207, 207, 207, 0.555);
+}
+
+/*Trabalha apenas com a div class menu*/
+.menu{
+    display: block; /* é o padrão de uma div, não precisa especificar*/
+    width: 1000px; /*Largura da div*/
+    background-color: rgb(6, 0, 63); /*Cor de fundo*/
+    margin: 5px auto; /* Centralizando */
+    padding: 20px 90px; /*Espaçamento interno*/
+    text-align: center;  /* deixando menu centralizado */
+    border:1px solid rgb(255, 102, 0)  /*Adicionando borda*/
+}
+
+.menu a{
+    font-size: 25px; /*aumentando a fonte */
+    margin: 0 60px; /*margem entre os links*/
+    color: rgb(255, 102, 0); /* alterando cor*/
+    text-decoration: none; /* removendo sublinhado*/
+    text-align: center; /* centralizando texto interno*/
+}
