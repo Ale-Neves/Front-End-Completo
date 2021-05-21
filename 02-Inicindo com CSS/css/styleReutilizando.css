@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Predefinindo a altura */
+html,body{
+    height: 100%;
+}
+
+/*Acessando a classe tipo 1*/
+.tipo1{
+    color: rgb(0, 0, 0);
+}
+
+
+/*Acessando a classe Link*/
+.link_{
+    color: rgb(34, 0, 255);
+    font-size: 30px;
+}
+
+/*Acessando a classe Tipo2 que é na mesma tag*/
+.tipo2{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+}
+
+/*
+    A classe tipo1 era utilizada por duas tags, e o estilo 
+    aplicado nela foi aplicado nas duas tags com a mesma classe.
+*/
+
+/*Sempre vai ter prioridade quem tiver o maior 
+especificação caso contrario, sera o ultimo que tera prioridade.*/
+
+
