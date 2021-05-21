@@ -1,0 +1,36 @@
+
+
+/*Predefinindo a altura */
+html,body{
+    height: 100%;
+}
+
+.lista{
+    list-style-position: inside; /*Coloca a posição da lista dentro da body*/
+    list-style-type: disc; /*Altera o tipo da bolinha da lista.*/
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+/*Niveis de acesso e prioridade*/
+
+
+/*Prioridade nivel 3, pois é menos especifico que o nivel 2*/
+.lista li, .lista2 li{
+    font-size: 20px;
+    color:rgb(4, 102, 4);
+}
+
+
+/*Prioridade nivel 2, pois é menos especifico que o nivel 1*/
+.lista .item3, .lista2 li{
+    color:blue;
+}
+
+/*Prioridade nivel 1, pois é mais especifico no acesso*/
+.lista li.item3{
+    font-weight: bold; /*Deixando em negrito*/
+    color:rgb(255, 0, 0);
+}
+
