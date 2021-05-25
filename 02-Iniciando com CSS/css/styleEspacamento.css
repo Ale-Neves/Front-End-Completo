@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Predefinindo a altura */
+html,body{
+    height: 100%;
+}
+
+.center{
+    box-sizing: border-box;/*espaçamento interno"para dentro"*/
+    width: 1280px;
+    margin: 0 auto;
+    padding: 30px; /*espaçamento externo*/
+    background: gray;
+}
+
+.artigo{
+    width: 1280px;
+    margin-bottom: 50px; /*espaçamento abaixo*/
+}
