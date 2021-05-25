@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Predefinindo a altura */
+html,body{
+    height: 100%;
+}
+
+/*Acessando a classe tipo 1*/
+.header{
+    width: 100%;
+    min-width: 1280px;
+    height: 200px;
+    background: grey;
+    color: rgb(0, 0, 0);
+}
+
+.article{
+    margin: 0 auto; /*Centralizando*/
+    width: 1280px;
+    max-height: 20%; /*Definindo tamanho maximo de altura*/
+    min-height: 50%; /*Definindo tamanho minimo de altura*/
+    background: red;
+}
