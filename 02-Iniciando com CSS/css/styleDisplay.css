@@ -27,9 +27,38 @@ html,body{
     /*Resumindo o código acima*/
     border-left: 3px dotted rgb(0, 255, 157);
 
+    /*Outline é a mesma coisa que a borda, porem ele sempre cresce para fora*/
+    outline: 3px dotted rgb(68, 1, 251);
+
     vertical-align: top; /*Deixa as divs centralizadas no topo*/
     display: inline-block; /*Bloqueia o elemento pai e só meche nos filhos*/
     margin-right: -4px;
     margin-top: 30px; /*altere a largura para funcionar*/
     width: 640px;
+}
+
+.center .caixaTexto{
+    /*exemplo de utilização do outline*/
+    margin: 10px;
+    outline: 3px solid rgb(37, 90, 21);
+}
+
+/*Utilizando o display em line*/
+.center .texto{
+    display: inline-block;
+    width: 80px;
+    margin-right: -4px;
+    height: 100px;
+    color: aliceblue;
+    background-color: rgb(3, 0, 168);
+}
+
+/*Utilizando o display em line*/
+.center .span{
+    display: inline-block;
+    width: 80px;
+    margin-right: -4px;
+    height: 100px;
+    color: aliceblue;
+    background-color: rgb(8, 69, 149);
 }
