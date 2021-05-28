@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Predefinindo a altura */
+html,body{
+    height: 100%;
+}
+
+.center{
+    width: 1280px;
+    margin: 0 auto;
+    background: gray;
+}
+
+.artigo{
+    vertical-align: top; /*Deixa as divs centralizadas no topo*/
+    margin: 10px 20px; /*altere a largura para funcionar*/
+    display: inline-block; /*Coloca a div na mesma linha */
+    width: 580px;
+}
