@@ -9,14 +9,27 @@ html,body{
 }
 
 .center{
+    box-sizing: content-box;
     width: 1280px;
     margin: 0 auto;
     background: gray;
 }
 
 .artigo{
+    box-sizing: border-box;
+
+    /* Definições e para bordas
+    border-left-style: dotted; /*Definindo estilo de borda
+    border-width: 3px;
+    border-color: rgb(0, 255, 157);
+    */
+
+    /*Resumindo o código acima*/
+    border-left: 3px dotted rgb(0, 255, 157);
+
     vertical-align: top; /*Deixa as divs centralizadas no topo*/
-    margin: 10px 20px; /*altere a largura para funcionar*/
-    display: inline-block; /*Coloca a div na mesma linha */
-    width: 580px;
+    display: inline-block; /*Bloqueia o elemento pai e só meche nos filhos*/
+    margin-right: -4px;
+    margin-top: 30px; /*altere a largura para funcionar*/
+    width: 640px;
 }
