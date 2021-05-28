@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Predefinindo a altura */
+html,body{
+    height: 100%;
+}
+
+.pai{
+    width: 1280px;
+    padding: 20px 0;
+    margin: 0 auto;
+    background: blue;
+}
+
+.filha{
+    box-sizing: border-box;
+    width:  640px;
+    height: 300px;
+    background-color: red;
+    border: 1px solid black;
+
+    font-size: 80px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 80px;
+    float: left; /*substitui odisplay:inline-block*/
+}
