@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*Manipulando pelo href*/
+a[href="http://www.google.com"]{
+    /*altera apenas se for igual.*/
+    background-color: aqua;
+}
+
+/*Manipulando o attr*/
+a[attr~="Alexandre"]{
+    /*localiza uma palavra chave*/
+    background-color: blue;
+    color: aliceblue;
+}
+
+a[attr*="é Vinicius"]{
+    /*localiza uma palavra em qualquer lugars*/
+    background-color: rgb(255, 238, 0);
+}
+
+input[type=text]{
+    background-color: azure;
+}
+
+input[type=submit]{
+    background-color: black;
+    color: aliceblue;
+}
