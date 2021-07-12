@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+table{
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse; /*para bordas colidindo*/
+
+}
+
+table tr td{
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+table tr.cab td{
+    background-color: black;
+    color: yellow;
+    border-color: rgb(255, 251, 1);
+}
+
+.Menu-Fixed{
+    position: fixed; /*posição fica estatica e segue o scrool*/
+    position: absolute; /*posição fica estatico sem seguir o scrool */
+    position: relative; /*posição de acordo de onde estiver*/
+    position: static; /*valor padrao*/
+    left: 120px;
+    margin: 0 auto;
+    
+}
+
+.border{
+    margin: 0 auto;
+    width: auto;
+    height: 9000px;
+    background-color: rgb(202, 201, 201);
+}
