@@ -1,0 +1,36 @@
+
+html, body{
+    height: 100%;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background: gray;
+}
+
+.box2{
+    width: 400px;
+    background: red;
+}
+
+.box > .box2 > span{
+    width: inherit; /* herdando do box2*/
+    height: inherit;
+    background: inherit; /* herdando do box2*/
+    color: aliceblue;
+}
+
+.box3{
+    width: 200px;
+    background: rgba(2, 13, 65, 0.698);
+    color: initial; /*initial serve para pegar o valor padão */
+}
+
+.box3 > .box4 > p{
+    margin: initial;
+    width: auto;
+    height: auto;
+    background-color: rgb(64, 0, 107);
+    color: aliceblue;
+}
