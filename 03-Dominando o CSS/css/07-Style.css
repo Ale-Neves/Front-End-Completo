@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+.box{
+    width: 100%;
+}
+
+.item{
+    float: left;
+    width: 33.33px;
+    height: 400px;
+    margin: 10px 10px;
+    background-color: aqua;
+    box-sizing: border-box; /*bordas para dentro*/
+    border: 1px solid black;
+}
+
+/*====== Aplicando o Pseudo nas Classes =========*/
+
+/*nth-of-type(2): atacando apeas a segunda li da lista*/
+ul li:nth-of-type(2){
+    color: blue;
+}
+
+/*nth-child(4): ataca o quarto item'filho' dentro da lista*/
+ul li:nth-child(4){
+    background-color: brown;
+    color: aliceblue;
+}
+
+/*:last-of-type: pegando a ultima div e altera a cor*/
+.box > div:last-of-type{
+    background-color: blue;
+} 
+
+/*alterando a cor da li*/
+ul li:last-of-type{
+    color: green;
+}
+
+/*:first-of-type: pegando a primeira div*/
+.box > div:first-of-type{
+    width: 200px;
+    background-color: rgb(56, 104, 119);
+}
+
+.box div p{
+    margin: 10px 10px;
+    color: aliceblue;
+}
+
+/*:not(.item): aplica o estilo para todas as divs que NÃO TEM o parametro passado.*/
+.box div:not(.item){
+    background-color: black;
+}
+
+/*:empty: aplica o estilo determinado onde estiver um paragrafo vazio*/
+p:empty{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+}
+
+/*::after: add um content a tag p depois que terminar o texto */
+.box div:first-of-type p::after{
+    content: ' Alexandre';
+    color: brown;
+} 
