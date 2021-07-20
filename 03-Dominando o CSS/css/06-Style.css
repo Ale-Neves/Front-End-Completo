@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+/*atacando essas classes*/
+.box1,.box2,.box3{
+    width: 300px;
+    height: 300px;
+    margin: 20px 10px;
+    background-color: #ccc;
+    display: inline-block; /*deixando em linha*/
+    vertical-align: top; /*fixando no topo*/
+}
+
+.texto{
+    width: 200px;
+    height: 30px;
+    margin: 10px 10px;
+    display: block;
+}
+
+.textarea1{
+    display: block;
+    width: 400px;
+    height: 200px;
+}
+
+
+.box2{
+    background-color: rgb(98,98,98);
+}
+
+.box3{
+    background-color: rgb(50,50,50);
+}
+
+/*====== Aplicando o Pseudo nas Classes =========*/
+
+/*Muda a cor quando coloca o mouse em cima do box*/
+.box1:hover{
+    background-color: aqua;
+}
+
+/*aumenta o tamanho e cor do box2 ao passar o mouse*/
+.box2:hover{
+    height: 900px;
+    background-color: blueviolet;
+    position: absolute;
+}
+
+/*altera a cor quando clica*/
+.box3:active{
+    background-color: red;
+}
+
+.texto:focus{
+    background-color: #ccc;
+}
