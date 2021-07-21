@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+h2{
+    font-family: 'Zen Tokyo Zoo';
+}
+
+/*Fonte baixada, importando*/
+@font-face {
+    font-family: "Nome Fonte";
+    src: url('../fonts/OtomanopeeOne-Regular.ttf');
+}
+
+h3{
+ font-family: "Nome Fonte";
+}
+/*--------------------------------------------------*/
+
+
+/* !important: aplicado dara mais relevancia*/
+.box p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*quando utilizamos o important o nivel de especificação 
+deixa de existir*/
+p{
+    font-family: "Nome Fonte" !important;
+}
+/*--------------------------------------------------*/
+
+/* Pegando tudo e aplicando uma fonte padrão*/
+form *{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*--------------------------------------------------*/
